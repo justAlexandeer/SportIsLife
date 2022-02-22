@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="preference_location_tracking_key"
+        android:title="@string/preference_location_tracking_title"
+        android:summary="@string/preference_location_tracking_summary"
+        android:entries="@array/preferences_location_tracking_entries"
+        android:entryValues="@array/preferences_location_tracking_entry_values"
+        android:defaultValue="3000"/>
+
+    <PreferenceCategory
+        app:key="max_value_category"
+        app:title="@string/preference_max_value_category"
+        app:summary="@string/preference_max_value_summary">
+
+        <EditTextPreference
+            android:key="preference_max_value_time"
+            android:title="@string/preference_max_value_time"
+            android:defaultValue="120"/>
+
+        <EditTextPreference
+            android:key="preference_max_value_calories"
+            android:title="@string/preference_max_value_calories"
+            android:defaultValue="3000"/>
+
+        <EditTextPreference
+            android:key="preference_max_value_steps"
+            android:title="@string/preference_max_value_steps"
+            android:defaultValue="400"/>
+
+    </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

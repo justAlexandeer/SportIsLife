@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    app:cardElevation="5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/training_cell_date_training"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/purple_200"
+            android:textSize="21sp"
+
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/training_cell_time_training"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+
+            android:textSize="17sp"
+            app:layout_constraintStart_toEndOf="@+id/training_cell_time_trainingImage"
+            app:layout_constraintTop_toBottomOf="@+id/training_cell_date_training" />
+
+        <ImageView
+            android:id="@+id/training_cell_time_trainingImage"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center"
+
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/timer"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/training_cell_date_training" />
+
+        <TextView
+            android:id="@+id/training_cell_distance_training"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2dp"
+
+            android:textSize="17sp"
+            app:layout_constraintStart_toEndOf="@+id/training_cell_distance_trainingImage"
+            app:layout_constraintTop_toBottomOf="@id/training_cell_time_training" />
+
+        <ImageView
+            android:id="@+id/training_cell_distance_trainingImage"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center"
+
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/road"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/training_cell_time_trainingImage" />
+
+        <TextView
+            android:id="@+id/training_cell_steps_training"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+
+            android:layout_marginTop="2dp"
+            android:textSize="17sp"
+            app:layout_constraintStart_toEndOf="@+id/training_cell_steps_trainingImage"
+            app:layout_constraintTop_toBottomOf="@id/training_cell_distance_training" />
+
+        <ImageView
+            android:id="@+id/training_cell_steps_trainingImage"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center"
+
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/footstep_64"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/training_cell_distance_trainingImage" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

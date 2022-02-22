@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">SportIsLife</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start_training_button_start">Тренировка</string>
+    <string name="start_training_button_coordinate">Координата</string>
+    <string name="start_training_button_show_log">Показать</string>
+    <string name="tracking_service_notification_name">Идёт тренировка</string>
+    <string name="activity_welcome_permission">Предоставить разрешения</string>
+    <string name="start_training_text_speed">%1$s км/ч</string>
+    <string name="start_training_text_distance">%1$s км</string>
+    <string name="start_training_text_calories">%1$s ккал</string>
+    <string name="training_list_adapter_date">Время: %1$s</string>
+    <string name="training_list_adapter_distance">Расстояние: %1$s км</string>
+    <string name="training_list_adapter_steps">Шаги: %1$s</string>
+    <string name="start_training_button_start_training">Начать</string>
+    <string name="start_training_button_end_training">Закончить</string>
+    <string name="training_statistics_distinction_title">Расстояние в м.</string>
+    <string name="training_statistics_distinction_count_training">Кол-во\nтренировок</string>
+    <string name="training_statistics_distinction_count_no_training">Дней\nбез тренировок</string>
+
+    <string name="training_detail_date_title">Время</string>
+    <string name="training_detail_date_subtitle">Длительность тренировки</string>
+    <string name="training_detail_total_time">Общее время: %1$s</string>
+    <string name="training_detail_start_time">Начало: %1$s</string>
+    <string name="training_detail_end_time">Конец: %1$s</string>
+
+    <string name="training_detail_distance_title">Расстояние</string>
+    <string name="training_detail_distance_subtitle">Пройденное расстояние</string>
+    <string name="training_detail_total_distance">Общее расстояние: %1$s км</string>
+    <string name="training_detail_steps">Шаги: %1$s</string>
+
+    <string name="training_detail_speed_title">Скорость</string>
+    <string name="training_detail_speed_subtitle">Темп бега во время тренировки</string>
+    <string name="training_detail_average_speed">Средняя скорость: %1$s км/ч</string>
+    <string name="training_detail_max_speed">Макс скорость: %1$s км/ч</string>
+
+    <string name="training_detail_calories_title">Калории</string>
+    <string name="training_detail_calories_subtitle">Колличество потраченных калорий</string>
+    <string name="training_detail_calories">Калории: %1$s</string>
+    <string name="training_detail_map_title">Карта</string>
+    <string name="training_detail_map_subtitle">Маршрут тренировки</string>
+
+    <string name="training_statistics_time">Время: %1$d м</string>
+    <string name="training_statistics_calories">Калории: %1$s</string>
+    <string name="training_statistics_steps">Шаги: %1$d</string>
+
+    <string name="preference_location_tracking_title">Качество геолокации</string>
+    <string name="preference_max_value_category">Цели на неделю</string>
+    <string name="preference_max_value_summary">Установите максимальные значения для колец активностей</string>
+    <string name="preference_max_value_time">Максимальное значение времени</string>
+    <string name="preference_max_value_calories">Максимальное значение калорий</string>
+    <string name="preference_max_value_steps">Максимальное значение шагов</string>
+    <string name="preference_location_tracking_summary">Качество остлеживание геолокации
+        влияет на использование, приложением, аккамулятора телефона</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preferences_location_tracking_entries">
+        <item>Отличное</item>
+        <item>Хорошое</item>
+        <item>Нормальное</item>
+        <item>Плохое</item>
+    </string-array>
+    <string-array name="preferences_location_tracking_entry_values">
+        <item>1000</item>
+        <item>3000</item>
+        <item>7000</item>
+        <item>10000</item>
+    </string-array>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/trainingStatisticsFragment">
+
+    <fragment
+        android:id="@+id/allTrainingFragment"
+        android:name="com.myprog.sportislife.ui.view.AllTrainingFragment"
+        android:label="Все тренировки"
+        tools:layout="@layout/fragment_all_training" >
+        <action
+            android:id="@+id/action_allTrainingFragment_to_trainingDetailFragment"
+            app:destination="@id/trainingDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/startTrainingFragment"
+        android:name="com.myprog.sportislife.ui.view.StartTrainingFragment"
+        android:label="Начать тренировку"
+        tools:layout="@layout/fragment_start_training" />
+
+    <fragment
+        android:id="@+id/trainingStatisticsFragment"
+        android:name="com.myprog.sportislife.ui.view.TrainingStatisticsFragment"
+        android:label="Статистика"
+        tools:layout="@layout/fragment_training_statistics" >
+        <action
+            android:id="@+id/action_trainingStatisticsFragment_to_preferencesFragment"
+            app:destination="@id/preferencesFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/trainingDetailFragment"
+        android:name="com.myprog.sportislife.ui.view.TrainingDetail"
+        android:label="Тренировка"
+        tools:layout="@layout/fragment_trainig_detail">
+        <argument
+            android:name="trainingId"
+            app:argType="long" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/preferencesFragment"
+        android:name="com.myprog.sportislife.ui.view.PreferencesFragment"
+        android:label="Настройки"/>
+
+</navigation>
